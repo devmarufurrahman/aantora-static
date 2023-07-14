@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.wrapper-menu ul li a{
+    font-size: 20px;
+    
+}
+.nav-item{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.wrapper-menu ul li a:hover{
+    color: blueviolet !important;
+    transition: all ease 0.3s;
+}
+.wrapper-menu ul li .active{
+    border-bottom: 1px solid blueviolet ;
+    border-radius: 1px;
+    width: 100%;
+    transition: all ease 0.3s;
+}
+
+
+.banner-title{
+    height: 568px;
+    width: 500px;
+    background-color: black;
+}
+
+.banner-image img{
+    width: 850px;
+}
+
+.card-wrap .card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 7%;
+    padding: 5px;
+}
+
+.card-wrap{
+    margin: 15px;
+    width: 25rem;
+}
+
+.question-wrapper{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 200px;
+}
+
+.signup input{
+    height: 4rem;
+}
