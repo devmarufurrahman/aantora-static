@@ -54,7 +54,7 @@
     background-color: black;
     /* width: 100vw; */
     height: auto;
-    margin-bottom: 200px;
+    margin-bottom: 5rem;
 }
 
 .signup input{
@@ -93,4 +93,20 @@
 .border-section {
     border: 1px solid rgb(241, 240, 240);
     opacity: 0.75;
+}
+.accordion-button {
+    font-size: 25px;
+}
+
+.accordion-body {
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    opacity: 0.75;
+    background-color: black !important;
+}
+
+.question {
+    margin: 0 auto;
+    width: 60%;
 }
