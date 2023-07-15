@@ -73,6 +73,17 @@
     justify-content: center;
     margin-left: 12rem;
 }
+.about-content h4 {
+    font-size: 2rem;
+    word-spacing: 3px;
+    padding-bottom: 1.5rem;
+}
+
+.about-content p {
+    font-size: 1.12rem;
+    word-spacing: 3px;
+    padding-bottom: 1.5rem;
+}
 .contact-section {
     background-color: black;
     width: 100vw;
@@ -109,4 +120,14 @@
 .question {
     margin: 0 auto;
     width: 60%;
+}
+th {
+    font-size: 18px;
+    opacity: 0.70;
+    padding-bottom: 2.5rem;
+
+}
+
+td {
+    font-size: 20px;
 }
