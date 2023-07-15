@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -39,11 +38,18 @@
 }
 
 .card-wrap .card {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius: 7%;
     padding: 5px;
 }
 
+.card-wrap .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    border: 3px solid rgb(187, 243, 55);
+}
 .card-wrap {
     margin: 15px;
     width: 25rem;
@@ -64,6 +70,9 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 8rem;
+    border: 3px solid greenyellow;
+        padding: 1rem;
+        box-shadow: -21px 22px 13px -12px rgba(0, 0, 0, 0.1);
 }
 
 .about-content {
@@ -137,12 +146,6 @@ td {
 
 /* back to top up  */
 
-/* .back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: block;
-} */
 #myBtn {
     display: none;
     position: fixed;
@@ -161,6 +164,9 @@ td {
 
 #myBtn:hover {
     background-color: #6d5d8e;
+}
+.card {
+    border: none;
 }
 /* responsive site  */
 
