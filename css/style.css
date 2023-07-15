@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper-menu ul li a{
@@ -58,4 +59,10 @@
 
 .signup input{
     height: 4rem;
+}
+.content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8rem;
 }
