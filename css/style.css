@@ -73,3 +73,16 @@
     justify-content: center;
     margin-left: 12rem;
 }
+.contact-section {
+    background-color: black;
+    width: 100vw;
+    padding: 5rem 0 5rem 0;
+    color: white;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
