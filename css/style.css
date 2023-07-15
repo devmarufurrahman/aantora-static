@@ -30,8 +30,8 @@
 
 
 .banner-title{
-    height: 568px;
-    width: 500px;
+    min-height: 545px;
+        min-width: 400px;
     background-color: black;
 }
 
@@ -52,7 +52,6 @@
 
 .question-wrapper{
     background-color: black;
-    /* width: 100vw; */
     height: auto;
     margin-bottom: 5rem;
 }
@@ -130,4 +129,35 @@ th {
 
 td {
     font-size: 20px;
+}
+/* responsive site  */
+
+@media only screen and (max-width: 420px) {
+
+    /* For Mobile  */
+
+    .banner-title {
+        min-width: 100%;
+    }
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8rem;
+    }
+
+    .about-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
 }
