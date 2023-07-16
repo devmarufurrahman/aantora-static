@@ -305,4 +305,11 @@ td {
         .bs {
             width: 95%;
         }
+.footer-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem 0 2rem 2rem;
+}
 }
