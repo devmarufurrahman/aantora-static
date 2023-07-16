@@ -234,6 +234,40 @@ td {
     border: none;
 }
 
+/* footer menu start  */
+
+.footer-menu-wrapper {
+    background-color: rgb(182, 148, 214);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 2rem 0;
+}
+
+.help,
+.about-us ul li {
+    list-style-type: none;
+}
+
+.help ul li {
+    list-style-type: none;
+}
+
+.help,
+.about-us ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.help ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fm-list-header {
+    color: #000;
+}
+
+/* footer menu end */
 /* responsive site  */
 
 @media only screen and (max-width: 420px) {
