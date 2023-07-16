@@ -8,6 +8,27 @@
     scroll-behavior: smooth;
 }
 
+/* top title  */
+
+.top-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 1rem;
+
+}
+
+.icons ul li a {
+    text-decoration: none;
+
+}
+
+/* top title  */
 .wrapper-menu ul li a {
     font-size: 20px;
 }
