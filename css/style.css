@@ -46,9 +46,6 @@
   font-size: 20px;
 }
 
-.navbar{
-  background-color: #146787;
-}
 
 
 
@@ -187,8 +184,15 @@
   gap: 5rem;
 }
 
+.contact-list ul {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
 .contact-list ul li {
   list-style-type: none;
+  padding-bottom: 12px;
+  
 }
 
 .contact-list ul li a {
@@ -333,6 +337,12 @@ td {
   padding: 2rem 0 2rem 0;
 }
 
+.footer-menu{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0 2rem 0;
+}
+
 .about-us ul {
   padding-left: 3px;
   align-items: center;
@@ -369,6 +379,9 @@ footer p {
   border-top: 2px solid #005791;
   margin-bottom: 0;
   padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -410,7 +423,7 @@ footer p {
     width: 95%;
   }
 
-  .footer-menu-wrapper {
+  .footer-menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -422,9 +435,7 @@ footer p {
         height: 60px;
     }
 
-    .contact-list ul {
-        padding-left: 0;
-    }
+    
 
     .singup button {
         font-size: 14px;
@@ -456,5 +467,13 @@ footer p {
 
     .disc{
       width: 100%;
+    }
+
+    footer p {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
     }
 }
