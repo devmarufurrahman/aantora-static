@@ -131,6 +131,11 @@
 .content-img {
     width: 100%;
 }
+.content button {
+    background-color: #005791;
+    color: #fff;
+    font-weight: bold;
+}
 /* screen protector */
 .about-content {
     width: 60rem;
