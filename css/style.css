@@ -138,23 +138,24 @@
 }
 /* screen protector */
 .about-content {
-    width: 60rem;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 12rem;
+    margin-left: 2rem;
 }
 
 .about-content h4 {
     font-size: 2rem;
     word-spacing: 3px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
 }
 
 .about-content p {
     font-size: 1.12rem;
     word-spacing: 3px;
     padding-bottom: 1.5rem;
+    text-align: justify;
 }
 
 /* .contact-section  */
