@@ -311,9 +311,6 @@ td {
     background-color: #6d5d8e;
 }
 
-.card {
-    border: none;
-}
 
 /* footer menu start  */
 
@@ -393,10 +390,9 @@ footer p {
         flex-direction: column;
         gap: 5rem;
     }
-
-        .card-wrap {
-            margin: 1rem 0 1rem 0;
-            width: 25rem;
+                .first-card {
+                    margin: 1rem 1rem 0;
+                    width: 300px;
         }
     
         .bs {
