@@ -140,11 +140,7 @@
 }
 
 /* card section  */
-.question-wrapper {
-    background-color: black;
-    height: auto;
-    margin-bottom: 5rem;
-}
+
 
 /* screen protector */
 .signup input {
@@ -235,22 +231,20 @@
     opacity: 0.75;
 }
 
+/* question section  */
 .accordion-button {
     font-size: 25px;
 }
 
 .accordion-body {
-    font-size: 16px;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    opacity: 0.75;
-    background-color: black !important;
+    font-size: 20px;
 }
 
 .question {
     margin: 0 auto;
     width: 60%;
 }
+/* question section  */
 
 th {
     font-size: 18px;
