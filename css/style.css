@@ -22,7 +22,9 @@
   align-items: center;
 }
 
-
+.top-details h6{
+  font-size: 15px;
+}
 
 .social-menu ul{
   padding: 0;
@@ -36,14 +38,14 @@
 }
 
 .social-menu ul li .fab{
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 15px;
+  line-height: 40px;
   transition: .3s;
   color: #000;
 }
 .footer-icons .social-menu ul li .fab{
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 15px;
+  line-height: 40px;
   transition: .3s;
   color: #fff;
 }
@@ -58,8 +60,8 @@
 .social-menu ul li a{
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #fff;
   text-align: center;
@@ -69,8 +71,8 @@
 .footer-icons .social-menu ul li a{
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: transparent;
   text-align: center;
@@ -509,6 +511,48 @@ footer p {
 /* footer section end */
 /* responsive site  */
 
+@media only screen and (min-width:1420px) {
+  .top-details h6{
+    font-size: 19px;
+  }
+  .social-menu ul li .fab{
+    font-size: 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: #000;
+  }
+  .footer-icons .social-menu ul li .fab{
+    font-size: 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: #fff;
+  }
+  
+  .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  }
+  .footer-icons .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  }
+}
+
+
 @media only screen and (max-width: 420px) {
   /* For Mobile  */
 
@@ -602,15 +646,9 @@ footer p {
       display: none;
       }
 
-    .top-details{
-      flex-direction: column;
-    }
-    .top-details h5{
-      font-size: 14px;
-    }
+    
     .top-title{
-      flex-direction: column;
-      margin-bottom: 1rem;
+      display: none;
 
     }
     .social-menu ul li .fab{
