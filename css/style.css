@@ -363,6 +363,7 @@ padding-right: 15rem;
   width: 60%;
 }
 
+
 /* question section  */
 
 /* subscribe section  */
@@ -441,6 +442,8 @@ th {
 td {
   font-size: 20px;
 }
+
+
 
 /* back to top up  */
 
@@ -758,7 +761,7 @@ footer p {
     }
 
     .about-us ul li {
-      width: 30%;
+      width: 40%;
     }
     .help ul li {
       width: 30%;
