@@ -756,4 +756,11 @@ footer p {
     html{
       font-size: 80%;
     }
+
+    .about-us ul li {
+      width: 30%;
+    }
+    .help ul li {
+      width: 30%;
+    }
 }
