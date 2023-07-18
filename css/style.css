@@ -22,29 +22,7 @@
   align-items: center;
 }
 
-/* .icons ul li {
-  list-style-type: none;
-  float: left;
-  margin-right: 1rem;
-}
 
-
-.icons ul li a {
-  text-decoration: none;
-}
-
-.icons ul li a i {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #000;
-}
-.footer-icons ul li a i {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #fff;
-} */
-
-/*! =================================== */
 
 .social-menu ul{
   padding: 0;
@@ -197,6 +175,36 @@
 }
 
 /* card section  */
+
+/* featuer slider section  */
+
+.fs-title{
+  font-size: 60px;
+  font-weight: bold;
+  color: #005089;
+}
+
+.fs-text{
+  text-align: justify;
+  font-size: 18px;
+  padding: 0px 20px;
+}
+
+.carousel-item{
+  background-color: #9d96ab;
+}
+
+.carousel-caption-fs{
+left: 50%;
+right: 0;
+bottom: 50%;
+top: 30%;
+transition: all ease 0.4s;
+padding-right: 15rem;
+}
+
+/* featuer slider section  */
+
 
 /* screen protector */
 
@@ -588,5 +596,28 @@ footer p {
       color: #fff;
       font-size: 15px;
       font-weight: bold;
+    }
+
+    .carousel-caption-fs{
+      display: none;
+      }
+
+    .top-details{
+      flex-direction: column;
+    }
+    .top-details h5{
+      font-size: 14px;
+    }
+    .top-title{
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+    }
+    .social-menu ul li .fab{
+      font-size: 20px;
+    }
+    .social-menu ul li a{
+      width: 55px;
+      height: 55px;
     }
 }
