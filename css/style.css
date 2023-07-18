@@ -14,6 +14,10 @@
   overflow-x: hidden;
 }
 
+.title{
+  font-size: 1.7rem;
+}
+
 /* top title  */
 
 .top-title {
@@ -147,7 +151,7 @@
 
 /* breadcrumb section  */
 .breadcrumb-wrapper{
-  background-color: #9ba1a3;
+  background-color: #c7c7c7;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -204,14 +208,14 @@
 /* featuer slider section  */
 
 .fs-title{
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   color: #005089;
 }
 
 .fs-text{
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0px 20px;
 }
 
@@ -223,7 +227,7 @@
 left: 50%;
 right: 0;
 bottom: 50%;
-top: 30%;
+top: 10%;
 transition: all ease 0.4s;
 padding-right: 15rem;
 }
@@ -332,14 +336,7 @@ padding-right: 15rem;
 }
 
 /* .contact-section  */
-.bs {
-  width: 68%;
-}
 
-.border-section {
-  border: 1px solid rgb(241, 240, 240);
-  opacity: 0.75;
-}
 
 /* question section  */
 .accordion-button {
@@ -527,11 +524,11 @@ footer p {
   padding-bottom: 20px;
   padding-top: 20px;
   color: #fff;
-  font-size: 22px;
-  font-weight: bolder;
+  font-size: 20px;
 }
 
 /* footer section end */
+
 /* responsive site  */
 
 @media only screen and (min-width:1420px) {
@@ -583,6 +580,35 @@ footer p {
   }
 
   /* menu section  */
+
+  /* footer  */
+
+  footer p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* footer  */
+
+
+/* feature product slider  */
+.carousel-caption-fs{
+  left: 50%;
+  right: 0;
+  bottom: 50%;
+  top: 30%;
+  transition: all ease 0.4s;
+  padding-right: 15rem;
+  }
+
+  .fs-title{
+    font-size: 52px;
+  }
+  
+  .fs-text{
+    font-size: 18px;
+  }
+
+/* feature product slider  */
 }
 
 
@@ -672,7 +698,6 @@ footer p {
       padding-top: 10px;
       color: #fff;
       font-size: 15px;
-      font-weight: bold;
     }
 
     .carousel-caption-fs{
