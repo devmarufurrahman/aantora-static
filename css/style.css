@@ -641,6 +641,7 @@ footer p {
 
 .content button {
   font-weight: bold;
+  padding: 10px;
 }
 
 /* screen protector */
