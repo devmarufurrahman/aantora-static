@@ -18,6 +18,10 @@
   font-size: 1.7rem;
 }
 
+.theme-bg{
+  background-color: #f8f9fa;
+}
+
 /* top title  */
 
 .top-title {
@@ -151,7 +155,6 @@
 
 /* breadcrumb section  */
 .breadcrumb-wrapper{
-  background-color: #c7c7c7;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -220,7 +223,7 @@
 }
 
 .carousel-item{
-  background-color: #9d96ab;
+  background-color: #f8f9fa;
 }
 
 .carousel-caption-fs{
@@ -242,7 +245,7 @@ padding-right: 15rem;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 2rem;
-  background: #6293b4;
+  background: #f8f9fa;
   border-radius: 7px;
   padding: 2rem 3rem 2rem 3rem;
   
