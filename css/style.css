@@ -282,7 +282,11 @@ padding-right: 15rem;
   width: 100%;
 }
 .content button {
-  background-color: #f25c41;
+  background-color: #c21164;
+  color: #fff;
+}
+.content button:hover {
+  background-color: #930b4a;
   color: #fff;
 }
 /* screen protector */
@@ -385,7 +389,7 @@ padding-right: 15rem;
 }
 
 .singup button {
-  background: #000;
+  background: #c21164;
   font-size: 16px;
   max-width: 30%;
   margin-bottom: 4px;
@@ -405,6 +409,9 @@ padding-right: 15rem;
   align-items: center;
   letter-spacing: 0.214em;
   color: #dbdbdb;
+}
+.singup button:hover {
+  background: #a60b53;
 }
 
 .singup button:hover {
@@ -481,7 +488,7 @@ td {
 }
 .about-us ul li {
   list-style-type: none;
-  border-bottom: 1px solid #005089;
+  border-bottom: 1px solid #055371;
   line-height: 2.2rem;
 }
 
@@ -495,7 +502,7 @@ td {
 }
 .help ul li {
   list-style-type: none;
-  border-bottom: 1px solid #005089;
+  border-bottom: 1px solid #055371;
   line-height: 2.2rem;
 }
 
@@ -525,7 +532,7 @@ td {
 /* footer section start  */
 footer p {
   background-color: #146787;
-  border-top: 2px solid #005791;
+  border-top: 2px solid #055371;
   margin-bottom: 0;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -621,7 +628,6 @@ footer p {
   font-size: 65px;
   font-weight: bold;
   letter-spacing: 0.89px;
-  color: #0a0b0b;
 }
 
 .disc {
@@ -633,7 +639,6 @@ footer p {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 2rem;
-  background: #6293b4;
   border-radius: 7px;
   padding: 4rem 7rem 4rem 7rem;
   
