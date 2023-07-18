@@ -284,6 +284,7 @@ padding-right: 15rem;
 .content button {
   background-color: #c21164;
   color: #fff;
+  border-radius: 40px;
 }
 .content button:hover {
   background-color: #930b4a;
@@ -750,5 +751,9 @@ footer p {
     .social-menu ul li a{
       width: 55px;
       height: 55px;
+    }
+
+    html{
+      font-size: 80%;
     }
 }
