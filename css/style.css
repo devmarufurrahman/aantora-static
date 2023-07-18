@@ -763,4 +763,17 @@ footer p {
     .help ul li {
       width: 30%;
     }
+
+    .accordion-button {
+      font-size: 18px;
+    }
+    
+    .accordion-body {
+      font-size: 14px;
+    }
+    
+    .question {
+      margin: 0 auto;
+      width: 90%;
+    }
 }
