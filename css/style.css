@@ -145,6 +145,21 @@
 /* navbar section  */
 
 
+/* breadcrumb section  */
+.breadcrumb-wrapper{
+  background-color: #9ba1a3;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumb-item{
+  color: #000 !important;
+}
+
+/* breadcrumb section  */
+
 
 
 /* card section  */
