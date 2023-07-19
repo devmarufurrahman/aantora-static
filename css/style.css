@@ -22,6 +22,10 @@
   background-color: #f8f9fa;
 }
 
+.theme-bg-2{
+  background-color: #a0c8d7;
+}
+
 /* top title  */
 
 .top-title {
@@ -169,6 +173,11 @@
 
 .breadcrumb-item {
   color: #000 !important;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #000;
 }
 
 /* breadcrumb section  */
@@ -324,31 +333,21 @@
 
 /* about section  */
 
-/* .about-content {
-  width: 95%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 2rem;
+.banner-img{
+  max-height: 380px;
+  overflow: hidden  ;
 }
 
-.about-content h4 {
-  font-size: 2rem;
-  word-spacing: 3px;
-  padding-bottom: 0.8rem;
+.banner-text{
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
 }
-
-.about-content p {
-  font-size: 1.12rem;
-  word-spacing: 3px;
-  padding-bottom: 1.5rem;
-  text-align: justify;
-} */
-
-
-/*! ============================================== */
-
-
+.banner-text h4{
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 0.3px;
+}
 
 .icon,
 a,
@@ -365,7 +364,7 @@ a:hover {
 .section-head h4 {
   position: relative;
   padding: 0;
-  color: #f91942;
+  color: #c21164;
   line-height: 1;
   letter-spacing: 0.3px;
   font-size: 34px;
@@ -379,7 +378,7 @@ a:hover {
   content: '';
   width: 60px;
   height: 3px;
-  background: #f91942;
+  background: #c21164;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -421,7 +420,7 @@ p.awesome_line {
   content: '';
   width: 60px;
   height: 3px;
-  background: #f91942;
+  background: #c21164;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -431,7 +430,7 @@ p.awesome_line {
 
 .extra-text span {
   font-weight: 700;
-  color: #f91942;
+  color: #c21164;
 }
 
 .item {
@@ -449,7 +448,7 @@ p.awesome_line {
 }
 
 .item:hover {
-  background: #f91942;
+  background: #c21164;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
   -webkit-transition: all .5s ease 0;
   transition: all .5s ease 0;
@@ -477,7 +476,7 @@ p.awesome_line {
 .item .icon {
   font-size: 40px;
   margin-bottom: 25px;
-  color: #f91942;
+  color: #c21164;
   width: 90px;
   height: 90px;
   line-height: 96px;
@@ -486,7 +485,7 @@ p.awesome_line {
 .item .icon i{
   font-size: 40px;
   margin-bottom: 25px;
-  color: #f91942;
+  color: #c21164;
   width: 90px;
   height: 90px;
   line-height: 96px;
