@@ -739,22 +739,50 @@ footer p {
       font-size: 15px;
     }
 
-    .carousel-caption-fs{
-      display: none;
-      }
+    /* feature slider  */
 
+    .fs-img{
+      width: 50%;
+      height: 50%;
+    }
+      
+    .fs-title{
+      font-size: 18px;
+    }
+
+    .fs-text{
+      display: none;
+      
+    }
+
+    /* feature slider  */
     
     .top-title{
       display: none;
 
     }
+    /* social icon  */
+
     .social-menu ul li .fab{
       font-size: 20px;
     }
     .social-menu ul li a{
-      width: 55px;
-      height: 55px;
+      width: 45px;
+      height: 45px;
     }
+
+    .address{
+      padding-left: 1rem;
+    }
+
+    .address .social-menu {
+      padding-left: 2.3rem;
+    }
+    .address .social-menu ul li .fab{
+      font-size: 25px;
+    }
+
+    /* social icon  */
 
     html{
       font-size: 80%;
