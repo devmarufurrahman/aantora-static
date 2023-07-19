@@ -334,8 +334,7 @@
 /* about section  */
 
 .banner-img {
-  max-height: 380px;
-  overflow: hidden;
+  height: 130%;
 }
 
 
@@ -1044,5 +1043,8 @@ footer p {
     width: 90%;
   }
 
+  .banner-img {
+    height: 100%;
+  }
 
 }
