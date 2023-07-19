@@ -348,6 +348,12 @@
   font-size: 34px;
   letter-spacing: 0.3px;
 }
+.banner-text p{
+  color: #818181;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
 
 .icon,
 a,
