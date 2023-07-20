@@ -166,9 +166,7 @@
 /* navbar section  */
 
 /* banner home  */
-.carousel-caption{
-  text-shadow: 2px 6px 5px #000;
-}
+
 
 /* banner home  */
 
@@ -891,7 +889,7 @@ footer p {
 }
 
 
-@media only screen and (max-width: 500px) and (min-width: 400px)  {
+@media only screen and (max-width: 500px) and (min-width: 376px)  {
   .feature-section .row{
     margin-left: 9%;
   }
