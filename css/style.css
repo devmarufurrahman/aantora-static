@@ -901,16 +901,26 @@ footer p {
 }
 
 
+
+
 @media only screen and (max-width: 500px) {
   /* For Mobile  */
+
+
+  /* screen protect */
+  .pageHead{
+    margin-right: -5px;
+  }
+  .pageHead h2{
+    font-size: 17px;
+  }
+  /* screen protect */
 
   .banner-title {
     min-width: 100%;
   }
 
-  /* .feature-section .row{
-    margin-left: 6%;
-  } */
+  
 
   .about-content {
     width: 100%;
@@ -1064,4 +1074,19 @@ footer p {
     height: 100%;
   }
 
+}
+
+@media only screen and (max-width: 325px) {
+  
+  /* screen protect */
+  .pageHead{
+    margin-right: -13px;
+  }
+  .pageHead h2{
+    font-size: 14px;
+  }
+  .pageHead p{
+    font-size: 10px;
+  }
+  /* screen protect */
 }
