@@ -165,6 +165,14 @@
 
 /* navbar section  */
 
+/* banner home  */
+.carousel-caption{
+  text-shadow: 2px 6px 5px #000;;
+}
+
+/* banner home  */
+
+
 
 /* breadcrumb section  */
 .breadcrumb-wrapper {
@@ -188,7 +196,7 @@
 
 
 /* card section  */
-/*! ================================ */
+
 .first-card h4 {
   text-align: center;
   color: #fff;
@@ -228,9 +236,6 @@
 /* card section  */
 
 /* featuer slider section  */
-
-
-/*! =========================UNDER CONSTRUCTION=========================================== */
 
 
 .fs-head {
@@ -886,7 +891,7 @@ footer p {
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   /* For Mobile  */
 
   .banner-title {
